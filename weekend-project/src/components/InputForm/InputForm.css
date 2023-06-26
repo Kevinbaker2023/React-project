@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-form {
+    border-style: solid;
+    border-radius: 25px;
+    padding: 1rem;
+    width: 41.5rem;
+    background-color: lightgray
+}
+
+.del-btn {
+    margin-left: 10rem;
+    size: 1rem;
+}
+
+#add-btn {
+    margin-top: 1rem;
+    width: 6rem;
+}
+
+#label-name {
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-left: 7rem;
+    margin-right: 1rem;
+}
+
+#task {
+    border-radius: 25px;
+    width: 20rem;
+    padding-left: 1rem;
+}
+
+#list {
+    width: 41.5rem;
+    border-radius: 25px;
+    border-style: solid;
+    margin-top: 5rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+}
+
+li {
+    padding-top: 1.5rem;
+    padding-left: .5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    list-style-position: inside;
+    position: relative;
+}
